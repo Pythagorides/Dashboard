@@ -5,7 +5,8 @@ const data = [
     "date": "2021-03-15",
     "domain": "Academic",
     "description": "Initial philosophical resistance documented through correspondence with university leadership.",
-    "link": "pdfs/dialogue-with-deans.pdf"
+    "link": "pdfs/dialogue-with-deans.pdf",
+    "thumbnail": "pdfs/thumbnails/dialogue-with-deans.jpg"
   },
   {
     "id": "event2",
@@ -13,7 +14,8 @@ const data = [
     "date": "2021-06-10",
     "domain": "Federal",
     "description": "Forensic documentation of federal engagement and procedural irregularities.",
-    "link": "pdfs/law-enforcement-conversations.pdf"
+    "link": "pdfs/law-enforcement-conversations.pdf",
+     "thumbnail": "pdfs/law-enforcement-conversations.pdf"
   },
   {
     "id": "event3",
@@ -21,7 +23,8 @@ const data = [
     "date": "2022-01-05",
     "domain": "Judicial",
     "description": "Petitions and philosophical testimony submitted to the U.S. Supreme Court.",
-    "link": "pdfs/supreme-court-conversations.pdf"
+    "link": "pdfs/supreme-court-conversations.pdf",
+    "thumbnail": "pdfs/supreme-court-conversations.pdf"
   }
 ];
 
