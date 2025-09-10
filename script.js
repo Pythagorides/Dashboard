@@ -14,6 +14,14 @@ const data = [
     "domain": "Federal",
     "description": "Forensic documentation of federal engagement and procedural irregularities.",
     "link": "pdfs/law-enforcement-conversations.pdf"
+  },
+  {
+    "id": "event3",
+    "title": "Supreme Court Conversations",
+    "date": "2022-01-05",
+    "domain": "Judicial",
+    "description": "Petitions and philosophical testimony submitted to the U.S. Supreme Court.",
+    "link": "pdfs/supreme-court-conversations.pdf"
   }
 ];
 
