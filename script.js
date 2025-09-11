@@ -6,7 +6,7 @@ const data = [
     "domain": "Academic",
     "description": "Initial philosophical resistance documented through correspondence with university leadership.",
     "link": "pdfs/dialogue-with-deans.pdf",
-    "thumbnail": "pdfs/thumbnails/dialogue-with-deans.jpg"
+    "thumbnail": "pdfs/thumbnails/dialogue-with-the-deans.jpg"
   },
   {
     "id": "event2",
