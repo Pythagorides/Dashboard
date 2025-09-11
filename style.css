@@ -18,16 +18,15 @@ h1 {
 /* ===== Timeline Container ===== */
 #timeline {
   display: flex;
-  flex-wrap: wrap;           /* Wrap items on smaller screens */
-  justify-content: center;   /* Center items horizontally */
-  gap: 30px;                  /* Space between items */
-  padding: 10px;
+  flex-direction: column;   /* Stack entries vertically */
+  align-items: center;      /* Center them horizontally */
+  gap: 30px;                /* Space between entries */
+  padding: 20px 0;
 }
 
 /* ===== Individual Entry ===== */
 .timeline-item {
   text-align: center;
-  max-width: 200px;           /* Keeps thumbnails consistent */
 }
 
 /* ===== Entry Title ===== */
@@ -35,16 +34,15 @@ h1 {
   font-size: 1.1em;
   margin-bottom: 10px;
   font-weight: 600;
-  line-height: 1.3;
   color: #007acc;
 }
 
 /* ===== Thumbnail Image ===== */
 .timeline-item img {
-  width: 100%;
+  width: 200px;             /* Medium size */
   height: auto;
   border: 1px solid #ccc;
-  border-radius: 4px;         /* Slightly rounded corners */
+  border-radius: 4px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   cursor: pointer;
 }
@@ -57,10 +55,7 @@ h1 {
 
 /* ===== Mobile-Friendly Adjustments ===== */
 @media (max-width: 600px) {
-  #timeline {
-    gap: 20px;
-  }
-  .timeline-item {
-    max-width: 90%;           /* Fill most of the screen on mobile */
+  .timeline-item img {
+    width: 80%; /* Larger on small screens */
   }
 }
