@@ -3,19 +3,19 @@ const data = [
     id: "event1",
     title: "Dialogue with the Deans",
     link: "https://drive.google.com/file/d/1UblTY-HLhaF3H37z6tNMLekvdmFYfdXT/view",
-    thumbnail: "pdfs/thumbnails/dialogue-with-the-deans.jpg"
+    thumbnail: "https://drive.google.com/uc?export=view&id=1fkBWPC7HgsUZ1mP-VDQ49ORZldzyA4nz"
   },
   {
     id: "event2",
-    title: "Law Enforcement Conversations",
+    title: "U.S. Law Enforcement Conversations",
     link: "https://drive.google.com/file/d/19Wsl3xnyvJfR3iiDayRbtYtBhKhvJcZc/view",
-    thumbnail: "pdfs/thumbnails/law-enforcement-conversations.jpg"
+    thumbnail: "https://drive.google.com/uc?export=view&id=1cS3g-JnmclVOeWVNfz2od1HET6NSpFGa"
   },
   {
     id: "event3",
-    title: "Supreme Court Conversations",
+    title: "U.S. Supreme Court Conversations",
     link: "https://drive.google.com/file/d/1FMQnUd5nG86Ybm3gL1zdB7fkjO12isHr/view",
-    thumbnail: "pdfs/thumbnails/supreme-court-conversations.jpg"
+    thumbnail: "https://drive.google.com/uc?export=view&id=1pJQXj5F2mSffewnM8rKPeMd07PNRwH3x"
   }
 ];
 
