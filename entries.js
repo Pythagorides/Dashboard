@@ -1,4 +1,23 @@
-// entries.js
+/*
+==========================
+ NEW ENTRY QUICK TEMPLATE
+==========================
+1. Upload the PDF to Google Drive → set to "Anyone with the link can view".
+2. Copy the link and extract the FILE_ID (between /d/ and /view).
+3. Upload the thumbnail image to your Google Drive "Images" folder → set to "Anyone with the link can view".
+4. Copy the link and extract the FILE_ID.
+5. Paste into the object below, replacing PASTE_PDF_FILE_ID_HERE and PASTE_IMAGE_FILE_ID_HERE.
+6. Add the object to the data array, making sure there’s a comma after the previous entry.
+
+Example:
+{
+  id: "eventX", // Change X to the next number in sequence
+  title: "Your Entry Title Here",
+  link: "https://drive.google.com/file/d/PASTE_PDF_FILE_ID_HERE/view",
+  thumbnail: "https://drive.google.com/thumbnail?id=PASTE_IMAGE_FILE_ID_HERE&sz=w1000"
+}
+*/
+
 const data = [
   {
     id: "event1",
