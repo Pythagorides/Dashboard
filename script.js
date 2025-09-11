@@ -5,7 +5,7 @@ const data = [
     "date": "2021-03-15",
     "domain": "Academic",
     "description": "Initial philosophical resistance documented through correspondence with university leadership.",
-    "link": "pdfs/dialogue-with-deans.pdf",
+    "link": "pdfs/dialogue-with-the-deans.pdf",
     "thumbnail": "pdfs/thumbnails/dialogue-with-the-deans.jpg"
   },
   {
