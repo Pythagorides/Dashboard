@@ -35,9 +35,6 @@ data.forEach(entry => {
   item.className = 'timeline-item';
   item.innerHTML = `
     <h2>${entry.title}</h2>
-    <p><strong>Date:</strong> ${entry.date}</p>
-    <p><strong>Domain:</strong> ${entry.domain}</p>
-    <p>${entry.description}</p>
     <a href="${entry.link}" target="_blank">
       <img src="${entry.thumbnail}" alt="Thumbnail of ${entry.title}" style="width:150px; border:1px solid #ccc; margin-top:8px;" />
     </a>
