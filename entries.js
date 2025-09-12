@@ -20,13 +20,13 @@ Example:
 
 const data = [
   {
-    id: "event2",
+    id: "event1",
     title: "Dialogue with the Deans",
     link: "https://drive.google.com/file/d/1UblTY-HLhaF3H37z6tNMLekvdmFYfdXT/view",
     thumbnail: "https://drive.google.com/thumbnail?id=1fkBWPC7HgsUZ1mP-VDQ49ORZldzyA4nz&sz=w1000"
   },
   {
-    id: "event1",
+    id: "event2",
     title: "U.S. Law Enforcement Conversations",
     link: "https://drive.google.com/file/d/19Wsl3xnyvJfR3iiDayRbtYtBhKhvJcZc/view",
     thumbnail: "https://drive.google.com/thumbnail?id=1cS3g-JnmclVOeWVNfz2od1HET6NSpFGa&sz=w1000"
