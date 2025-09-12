@@ -92,4 +92,8 @@ const data = [
   {
     id: "event16",
     title: "Tsanbala or The Yellow God of Wealth རྣམ་ཐོས་སྲས",
-    link: "https://drive
+    link: "https://drive.google.com/file/d/1mWxKETjk7QpSDZIl-L59F6Xotlg0AmMz/view",
+    thumbnail: "https://drive.google.com/thumbnail?id=1jgcVK6y0QKVlJkJW8kwfKr-U7Z1eGbdp&sz=w1000"
+  }
+]; // ✅ This bracket and semicolon were missing
+
