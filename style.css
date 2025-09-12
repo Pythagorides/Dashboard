@@ -13,7 +13,6 @@ h1, h2 {
   font-family: 'Old Standard TT', serif;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 20px;
 }
 
 /* ===== Main Heading ===== */
@@ -31,27 +30,33 @@ h1 {
   padding: 20px 0;
 }
 
-/* ===== Individual Entry ===== */
+/* ===== Individual Entry Container ===== */
 .timeline-item {
   text-align: center;
-  max-width: 1000px;
+  max-width: 1000px; /* Wide container for title */
 }
 
 /* ===== Entry Title ===== */
 .timeline-item h2 {
   font-size: 1.1em;
-  margin-bottom: 10px;
+  margin: 0 auto 10px auto;
   color: #007acc;
+  white-space: nowrap;         /* Prevent wrapping */
+  overflow: hidden;            /* Hide overflow */
+  text-overflow: ellipsis;     /* Add "..." if too long */
+  max-width: 1000px;
 }
 
 /* ===== Thumbnail Image ===== */
 .timeline-item img {
-  width: 100%;
+  width: 200px;                /* Fixed thumbnail size */
   height: auto;
   border: 1px solid #ccc;
   border-radius: 4px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   cursor: pointer;
+  display: block;
+  margin: 0 auto;              /* Center the image */
 }
 
 /* ===== Hover Effect ===== */
