@@ -1,4 +1,4 @@
-const data = [
+const entries = [
   {
     id: "event1",
     title: "Vajrakilaya or Mikey and the Liver Pirates རྡོ་རྗེ་ཕུར་པ།",
