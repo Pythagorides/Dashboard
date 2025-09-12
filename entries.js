@@ -95,5 +95,5 @@ const data = [
     link: "https://drive.google.com/file/d/1mWxKETjk7QpSDZIl-L59F6Xotlg0AmMz/view",
     thumbnail: "https://drive.google.com/thumbnail?id=1jgcVK6y0QKVlJkJW8kwfKr-U7Z1eGbdp&sz=w1000"
   }
-]; // ✅ This bracket and semicolon were missing
+]; 
 
