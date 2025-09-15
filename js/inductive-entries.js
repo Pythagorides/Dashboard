@@ -1,7 +1,7 @@
 const entries = [
   {
     id: "event1",
-    title: "1995-08-01 Morphometric and Immunohistochemical Characterization of Human Liver Regeneration།",
+    title: "1995-08-01 Morphometric and Immunohistochemical Characterization of Human Liver Regeneration",
     link: "https://drive.google.com/file/d/1Yy3aOXuY-zB7Z8Edi9ZPNRzqBukYP-GA/view",
     thumbnail: "https://drive.google.com/thumbnail?id=1L-3sG16K_K3jW7NkCJkLShE28GIGNuMR&sz=w1000"
   },
@@ -19,7 +19,7 @@ const entries = [
   },
   {
     id: "event4",
-    title: "2002-08-01 An Overview of the Pathology and Approaches to Tissue Engineering།",
+    title: "2002-08-01 An Overview of the Pathology and Approaches to Tissue Engineering",
     link: "https://drive.google.com/file/d/1dBK_1an8z_TmaztRTGlLuiCUbTQ88uwx/view",
     thumbnail: "https://drive.google.com/thumbnail?id=1GaLhJ0A73M-NeD8HANo6_q1c38eYjknZ&sz=w1000"
   },
