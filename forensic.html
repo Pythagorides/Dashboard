@@ -14,8 +14,23 @@
       <!-- Optional header content -->
     </header>
 
-    <main id="timeline">
-      <!-- Entries will be injected here -->
+    <main>
+      <section id="upmc-query">
+        <h2>UPMC Medical Records Dashboards</h2>
+        <div class="date-tool">
+          <label for="dashboard-date">Select a date:</label>
+          <input type="date" id="dashboard-date" />
+        </div>
+        <div id="dashboard-preview"></div>
+      </section>
+
+      <section id="timeline">
+        <!-- Static entries will be injected here -->
+      </section>
+
+      <section id="upmc-dynamic" style="display: none;">
+        <!-- Dynamic entries from Google Drive API will be injected here if re-enabled -->
+      </section>
     </main>
 
     <script src="js/shared-script.js"></script>
