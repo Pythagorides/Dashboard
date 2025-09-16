@@ -1,25 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>III> Forensic Science or #UPMCRecycles</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header>
-      <!-- Optional header content -->
-    </header>
 
-    <main id="timeline">
-      <!-- Entries will be injected here -->
-    </main>
+<head>
+  <meta charset="UTF-8" />
+  <title>III> Forensic Science or #UPMCRecycles</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap" rel="stylesheet" />
+</head>
 
-    <script src="js/shared-script.js"></script>
-    <script src="js/forensic-entries.js"></script>
-    <script src="js/forensic-script.js"></script>
-  </body>
+<body>
+  <header>
+    <!-- Optional header content -->
+  </header>
+
+  <main id="timeline">
+    <!-- Static entries will be injected here -->
+  </main>
+
+  <<section id="upmc-query">
+  <h2>UPMC Medical Records Dashboards</h2>
+  <div class="date-tool">
+    <label for="dashboard-date">Select a date:</label>
+    <input type="date" id="dashboard-date" />
+  </div>
+  <div id="dashboard-preview"></div>
+</section>
+ 
+  <script src="js/shared-script.js"></script>
+  <script src="js/forensic-entries.js"></script>
+  <script src="js/forensic-script.js"></script>
+</body>
+
 </html>

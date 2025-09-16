@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Drive API Test</title>
+</head>
+<body>
+  <main id="timeline"></main>
+  <script>
+    fetch("https://www.googleapis.com/drive/v3/files?q='1eYE1E0g7SfsZKJi6y902khyxoCNzkLWT'+in+parents+and+trashed=false&fields=files(id,name,createdTime,thumbnailLink,webViewLink)&key=AIzaSyDVBIgaqUzJu4Z8DjZhEK2eKMWzTIWw0fY")
+      .then(res => res.json())
+      .then(data => {
+        const container = document.getElementById("timeline");
+        data.files.forEach(file => {
+          const item = document.createElement("div");
+          item.innerHTML = `
+            <h2>${file.name}</h2>
+            <a href="${file.webViewLink}" target="_blank">
+              <img src="${file.thumbnailLink}" alt="${file.name}" />
+            </a>
+          `;
+          container.appendChild(item);
+        });
+      });
+  </script>
+</body>
+</html>
+
