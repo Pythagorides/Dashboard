@@ -5,7 +5,21 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Global store for fetched UPMC files
+// Global stores for forensic dashboard folders
 let upmcFiles = [];
+let exhibitsFiles = [];
+let rootfactFiles = [];
+let eventmatrixFiles = [];
+let defendantsFiles = [];
+let deansFiles = [];
+let cappyFiles = [];
+let usLawEnforcementFiles = [];
+let usSupremeCourtFiles = [];
+let judicialNoticeFiles = [];
+let aporiasFiles = [];
+let hillSchoolFiles = [];
+let hillSchoolCounselFiles = [];
+let upmcCounselFiles = [];
 
 // Extract date from filename (e.g. "2025-11-07 UPMC Medical Records Dashboard")
 function extractDateFromFilename(filename) {
