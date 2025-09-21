@@ -1,4 +1,5 @@
 // Render static entries from forensic-entries.js
+// Render static entries from forensic-entries.js
 document.addEventListener("DOMContentLoaded", () => {
   renderEntries(entries);
   loadUPMCDashboards(); // Load dynamic dashboards
